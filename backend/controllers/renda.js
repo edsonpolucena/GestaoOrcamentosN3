@@ -1,11 +1,6 @@
-
-
-// exports.addRenda = async (req, res) =>{
-//     console.log(req.body);
-
 const RendaSchema = require("../model/RendaModel")
 
-// }
+
 exports.addRenda = async (req,res)=> {
     const {title, amount, category, description, date} = req.body
     const renda = RendaSchema({
@@ -17,7 +12,7 @@ exports.addRenda = async (req,res)=> {
     })
 
     try {
-        //validacoes
+        
         if(!title || !category || !description || !date){
             return res.status(400).json({message: 'Todos os campos devem ser preenchidos!'})
         }
