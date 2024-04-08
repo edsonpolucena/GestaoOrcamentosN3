@@ -33,7 +33,7 @@ function Navigation (active, setActive){
             </ul>
             <div className="bottom-nav">
                 <li>
-                    {signout} Sign out
+                    {signout} Sair
                 </li>
             </div>
         </NavStyled>
