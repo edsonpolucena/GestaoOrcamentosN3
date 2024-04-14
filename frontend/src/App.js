@@ -55,7 +55,6 @@ main{
   border: 3x solid #ffffff;
   backdrop-filter: blur(4.5px);
   border-radius: 32px;
-  overflow: auto;
   overflow-x: hidden;
   &::-webkit-scrollbar{
     width: 0;
