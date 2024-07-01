@@ -7,20 +7,20 @@ export const menuItems = [
         icon: dashboard,
         link: '/dashboard'
     },
+    // {
+    //     id:2,
+    //     title: "Transações",
+    //     icon: transactions,
+    //     link: '/dashboard'
+    // },
     {
         id:2,
-        title: "Transações",
-        icon: transactions,
-        link: '/dashboard'
-    },
-    {
-        id:3,
         title: "Receitas",
         icon: trend,
         link: '/dashboard'
     },
     {
-        id:4,
+        id:3,
         title: 'Despesas',
         icon: expenses,
         link: '/dashboard'
